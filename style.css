@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
 .px-size {
   font-size: 16px;
 }
@@ -8,4 +18,22 @@
 
 .ch-size {
   font-size: 16ch;
+}
+
+.vh-size {
+  font-size: 16vh;
+}
+
+.border-box-attribute {
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.content-box-attribute {
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  box-sizing: content-box;
 }
