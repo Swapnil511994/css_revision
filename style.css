@@ -31,6 +31,10 @@ div {
   box-sizing: border-box;
 }
 
+.txt-decorations-cls {
+  margin: 5px;
+}
+
 .content-box-attribute {
   padding: 10px;
   margin: 10px;
