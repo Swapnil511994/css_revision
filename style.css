@@ -45,3 +45,64 @@ div {
 .font-family-cls {
   font-size: 20px;
 }
+
+.ul-list {
+  /* line-height: 1rem; */
+  list-style-image: url("https://cdn.iconscout.com/icon/premium/png-16-thumb/check-4395731-3644381.png?f=webp");
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.ul-list:nth-child(1) {
+  color: red;
+}
+/* .ul-list ::marker {
+  content: "hllo world";
+} */
+
+nav {
+  border: 2px solid #333;
+  border-radius: 2rem;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  max-width: 600px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+nav h2 {
+  background-color: gold;
+  border-radius: 2rem 2rem 0rem 0rem;
+  padding: 1rem;
+}
+
+nav ul {
+  text-align: center;
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+nav li {
+  border-top: 1px solid #333;
+}
+
+nav li a {
+  text-decoration: none;
+  display: block;
+}
+nav li a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+nav li a:hover,
+nav li a:focus {
+  background-color: #333;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+nav li:last-child a {
+  border-radius: 0rem 0rem 2rem 2rem;
+}
