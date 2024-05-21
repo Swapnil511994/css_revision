@@ -59,7 +59,7 @@ div {
   content: "hllo world";
 } */
 
-nav {
+.nav-vertical {
   border: 2px solid #333;
   border-radius: 2rem;
   margin-top: 0px;
@@ -71,39 +71,39 @@ nav {
   font-size: 3rem;
 }
 
-nav h2 {
+.nav-vertical h2 {
   background-color: gold;
   border-radius: 2rem 2rem 0rem 0rem;
   padding: 1rem;
 }
 
-nav ul {
+.nav-vertical ul {
   text-align: center;
   list-style-position: inside;
   list-style-type: none;
 }
 
-nav li {
+.nav-vertical li {
   border-top: 1px solid #333;
 }
 
-nav li a {
+.nav-vertical li a {
   text-decoration: none;
   display: block;
 }
-nav li a:visited {
+.nav-vertical li a:visited {
   text-decoration: none;
   color: #333;
 }
 
-nav li a:hover,
-nav li a:focus {
+.nav-vertical li a:hover,
+.nav-vertical li a:focus {
   background-color: #333;
   color: whitesmoke;
   cursor: pointer;
 }
 
-nav li:last-child a {
+.nav-vertical li:last-child a {
   border-radius: 0rem 0rem 2rem 2rem;
 }
 
@@ -118,4 +118,38 @@ nav li:last-child a {
   margin: 2rem;
   padding: 5rem;
   background-color: #333;
+}
+
+.navbar-horizontal {
+  background-color: #000;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0pc;
+}
+
+.navbar-horizontal ul {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-horizontal li {
+  display: inline-block;
+  margin-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+.navbar-horizontal li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar-horizontal li:hover,
+.navbar-horizontal li:focus {
+  background-color: red;
 }
