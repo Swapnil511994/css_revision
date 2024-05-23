@@ -153,3 +153,64 @@ div {
 .navbar-horizontal li:focus {
   background-color: red;
 }
+
+.columns {
+  column-count: 4;
+  column-width: 250px;
+  column-gap: 3rem;
+  column-rule: #333;
+  break-inside: avoid;
+  padding: 1rem;
+}
+
+.position-playground {
+  height: 100vh;
+  min-height: 100vh;
+  background-color: #2f4f4f;
+  position: relative;
+}
+
+.position-item {
+  min-height: 250px;
+  max-height: 250px;
+  max-width: 250px;
+  min-width: 250px;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.position-absolute {
+  position: absolute;
+  right: 0px;
+  top: -20px;
+  background-color: red;
+}
+
+.position-fixed {
+  position: fixed;
+  background-color: green;
+  right: 0px;
+  top: 0px;
+}
+
+.position-sticky {
+  position: sticky;
+  background-color: blue;
+  left: 150px;
+  top: 0px;
+}
+
+.position-static {
+  position: static;
+  background-color: orange;
+  left: 250px;
+  top: 0px;
+}
+
+.position-relative {
+  position: relative;
+  background-color: yellow;
+  right: -50%;
+  top: 0;
+}
