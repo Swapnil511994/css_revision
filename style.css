@@ -269,3 +269,31 @@ div {
 .header-positioning-footer > ul > li {
   display: inline-block;
 }
+
+.flex-container-box {
+  height: 3rem;
+  width: 3rem;
+  background-color: #333;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100px;
+}
+
+.flex-container-box:nth-child(odd) {
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+
+.flex-container {
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row-reverse wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
